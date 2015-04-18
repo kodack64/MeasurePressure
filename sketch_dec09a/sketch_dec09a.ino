@@ -49,15 +49,17 @@ void loop()
 //  float altitude = calcAltitude(pressure); //Uncompensated caculation - in Meters 
 
 //  Serial.print("Temperature: ");
+  Serial.print("t");
   Serial.println(temperature,3); //display 2 decimal places
 //  Serial.println("deg C");
 
 //  Serial.print("Pressure: ");
+  Serial.print("p");
   Serial.println(pressure,0); //whole number only.
 //  Serial.println(" Pa");
 
 //  Serial.print("Standard Atmosphere: ");
-  Serial.println(atm,6); //display 4 decimal places
+//  Serial.println(atm,6); //display 4 decimal places
 
 //  Serial.print("Altitude: ");
 //  Serial.print(altitude, 2); //display 2 decimal places
