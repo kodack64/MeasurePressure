@@ -1,4 +1,4 @@
 MeasurePressure
 ===============
 
-Arduinoで大気圧計測
+Arduinoで実験室の気圧と温度をモニタする用
